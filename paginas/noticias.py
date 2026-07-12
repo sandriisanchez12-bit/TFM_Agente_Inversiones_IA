@@ -1,6 +1,6 @@
 import streamlit as st
 from servicios.servicio_noticias import obtener_noticias
-from servicios.servicio_groc import analizar_evento
+from servicios.servicio_groq import analizar_evento
 
 
 def noticias_app():
